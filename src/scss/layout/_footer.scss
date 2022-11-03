@@ -1,0 +1,40 @@
+.footer {
+    background-color: $grisOscuro;
+    padding: $separacion / 4;
+    margin-bottom: 0;
+
+    .contenedor-footer {
+        padding-top: $separacion / 2;
+    }
+
+    .navegacion {
+        display: block;
+
+        a {
+            color: $blanco;
+            text-decoration: none;
+            font-size: 2rem;
+            display: block; //Hacemos que tome todo el ancho disponible para dispositivos pequeños
+            text-align: center;
+
+            @include tablet {
+                margin-right: 2rem; //Colocamos una separacion en dispositivos más grandes
+                // font-size: 1.8rem;
+
+                &:last-of-type {
+                    margin-right: 0; //Eliminamos el amrgi del ultimo elemento
+                }
+            }
+        }
+
+        @include tablet {
+            display: flex; //Colocamos el nav uno al lado del otro en dispositivos mas grandes
+            align-items: center; //Alineamos verticalmente los dos elementos
+        }
+    }
+
+    .copyright {
+        color: $blanco;
+        text-align: center;
+    }
+}

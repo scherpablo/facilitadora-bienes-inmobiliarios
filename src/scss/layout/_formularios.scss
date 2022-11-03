@@ -1,0 +1,39 @@
+.formulario {
+    p {
+        font-size: 1.5rem;
+        color: $grisOscuro;
+        margin: 2rem 0 0 0;
+    }
+
+    legend {
+        font-size: 2.2rem;
+        color: $grisOscuro;
+    }
+
+    label {
+        text-transform: uppercase;
+        font-weight: $black;
+        display: block; //Esta propiedad los coloca de manera vertical
+    }
+
+    input:not([type="submit"]), textarea, select {
+        padding: 1rem;
+        width: 100%;
+        display: block;
+        background-color: $blanco;
+        border: 1px solid $gris;
+        margin-bottom: 2rem;
+    }
+
+    .forma-contacto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+        max-width: 30rem;
+    }
+
+    input[type="radio"] {
+        margin: 0;
+        width: auto;
+    }
+}

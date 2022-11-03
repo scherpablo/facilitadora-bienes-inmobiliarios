@@ -1,0 +1,82 @@
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        align-items: flex-end;
+    }
+    .dark-mode-boton {
+        width: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        filter: invert(100%); //Invierte el color de un vector (svg), en este caso de negro a blnaco
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @include tablet {
+            margin-top: 0;
+        }
+    }
+}
+
+.barra {
+    display: flex; //Los coloca uno junto al otro
+    flex-direction: column; //Los coloca de arriba hacia abajo (vertical) en dispositivos pequeños
+    padding-top: 3rem;
+    align-items: center; //Centra el menu hamburguesa 
+
+    @include tablet { 
+        flex-direction: row; //Los coloco uno al lado del otro (horizontal) en dispositivos mas grandes
+        justify-content: space-between; //Los coloca uno del lado izquierdo y el otro del lado derecho
+        align-items: flex-end; 
+    }
+}
+
+.navegacion {
+
+    display: none;
+
+    a {
+        color: $blanco;
+        text-decoration: none;
+        font-size: 2rem;
+        display: block; //Hacemos que tome todo el ancho disponible para dispositivos pequeños
+        text-align: center;
+
+        @include tablet {
+            margin-right: 2rem; //Colocamos una separacion en dispositivos más grandes
+            // font-size: 1.8rem;
+
+            &:last-of-type {
+                margin-right: 0; //Eliminamos el amrgi del ultimo elemento
+            }
+        }
+    }
+
+    @include tablet {
+        display: flex; //Colocamos el nav uno al lado del otro en dispositivos mas grandes
+        align-items: center; //Alineamos verticalmente los dos elementos
+    }
+}
+
+.mobile-menu {
+    @include tablet {
+        display: none;
+    }
+
+    img {
+        width: 5rem;
+    }
+}
+
+.mostrar {
+    display: flex; //Lo muestra de izquierda a derecha para celulares
+    flex-direction: column; //Cambiamos la orientacion de izquierda a derecha por la de arriba a abajo
+    
+    @include tablet {
+        flex-direction: row; //Volvemos a cambiar la direction de arriba a abajo por la de izquierda a derecha para tablets
+    }
+}
