@@ -49,11 +49,11 @@
 
                         <ul class="iconos-caracteristicas">
                             <li>
-                                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono baños">
                                 <p>3</p>
                             </li>
                             <li>
-                                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono cocheras">
                                 <p>3</p>
                             </li>
                             <li>
@@ -80,11 +80,11 @@
 
                         <ul class="iconos-caracteristicas">
                             <li>
-                                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono baños">
                                 <p>2</p>
                             </li>
                             <li>
-                                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono cocheras">
                                 <p>2</p>
                             </li>
                             <li>
@@ -111,11 +111,11 @@
 
                         <ul class="iconos-caracteristicas">
                             <li>
-                                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
+                                <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono baños">
                                 <p>4</p>
                             </li>
                             <li>
-                                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                                <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono cocheras">
                                 <p>3</p>
                             </li>
                             <li>
@@ -130,7 +130,7 @@
             </div>
 
             <div class="alinear-derecha">
-                <a class="boton-verde" href="anuncios.html">Ver Todas</a>
+                <a class="boton-verde" href="anuncios.php">Ver Todas</a>
             </div>
         </section>
 

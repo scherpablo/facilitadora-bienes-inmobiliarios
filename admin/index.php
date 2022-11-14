@@ -7,7 +7,9 @@
     <main class='contenedor seccion'>
         <h1>Administrador de Bienes Inmobilarios</h1>
 
-        <a href='/admin/propiedades/crear.php' class='boton boton-verde'>Nueva Propiedad</a>
+        <div class="alinear-derecha">
+            <a href='/admin/propiedades/crear.php' class='boton boton-verde'>Nueva Propiedad</a>
+        </div>
     </main>
 
 <?php
